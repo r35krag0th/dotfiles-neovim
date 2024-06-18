@@ -7,6 +7,7 @@ return {
       r.calendar_entry,
       r.free_time_entry,
       r.focus_time_entry,
+      r.jira_ticket,
     })
   end,
 }
