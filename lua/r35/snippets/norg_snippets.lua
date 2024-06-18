@@ -43,4 +43,17 @@ M.jira_ticket = s("jira-ticket", {
   t("] "),
 })
 
+-- Create a {:$/ticket-notes/XX-1234.norg:}[📝 XX-1234] snippet
+M.ticket_notes = s("ticket-notes", {
+  t("{:$/ticket-notes/"),
+  i(1, "XX-1234"),
+  t(".norg:}[📝 "),
+  d(2, function(args)
+    return sn(nil, {
+      i(1, args[1]),
+    })
+  end, { 1 }),
+  t("] "),
+})
+
 return M
