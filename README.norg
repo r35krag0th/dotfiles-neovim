@@ -1,22 +1,27 @@
-* 💤 LazyVim
+* 💤 r35krag0th's LazyVim
 
+  > [!NOTE]
+  > 
+  > The README.md is generated via `Neorg export`.
+   
   @code vim
+  " Rendered via Neorg Export:
   Neorg export to-file README.md markdown
   @end
 
 ** Added Plugins
 
-- {https://github.com/ldelossa/gh.nvim)}[gh.nvim]
-- {https://github.com/vhyrro/luarocks.nvim)}[luarocks.nvim]
-- {https://github.com/L3MON4D3/LuaSnip)}[LuaSnip]
-- {https://github.com/nvim-neorg/neorg)}[Neorg]
-- {https://github.com/rest-nvim/rest.nvim)}[REST]
-- {https://github.com/christoomey/vim-tmux-navigator)}[tmux-navigator]
-- {https://github.com/folke/zen-mode.nvim)}[zen-mode]
+   - {https://github.com/ldelossa/gh.nvim}[gh.nvim]
+- {https://github.com/vhyrro/luarocks.nvim}[luarocks.nvim]
+- {https://github.com/L3MON4D3/LuaSnip}[LuaSnip]
+- {https://github.com/nvim-neorg/neorg}[Neorg]
+- {https://github.com/rest-nvim/rest.nvim}[REST]
+- {https://github.com/christoomey/vim-tmux-navigator}[tmux-navigator]
+- {https://github.com/folke/zen-mode.nvim}[zen-mode]
 
 *** nvim-cmp
 
-- {https://github.com/hrsh7th/cmp-emoji)}[cmp-emoji]
+- {https://github.com/hrsh7th/cmp-emoji}[cmp-emoji]
 
 *** Languages
 
@@ -26,7 +31,7 @@
 
 > [!NOTE]
 >
-> Stored in {lazyvim.json)}[lazyvim.json]
+> Stored in {lazyvim.json}[lazyvim.json]
 
 *** Coding
 
@@ -39,7 +44,7 @@
 
 *** Editor
 
-- {https://github.com/L3MON4D3/LuaSnip)}[LuaSnip]
+- {https://github.com/L3MON4D3/LuaSnip}[LuaSnip]
 - aerial
 - dial
 - inc-rename
