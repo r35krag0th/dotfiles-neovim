@@ -44,7 +44,7 @@ return {
         },
       },
       ["core.promo"] = {},
-      ["core.export"] = {},
+      ["core.export"] = { config = { extensions = "all" } },
       ["core.export.markdown"] = {},
       ["core.presenter"] = {
         config = {
